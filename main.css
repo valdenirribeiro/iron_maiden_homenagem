@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Metal Mania", system-ui;
+}
+#conteiner {
+    max-width: 1080px;
+    width: 100%;
+    margin: auto;
+}
+header {
+    height: 60px;
+    background-color: #413A36;
+    
+}
+header #conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header #conteiner h1 {
+    font-size: 38px;
+    margin-top: 8px;
+    font-weight: normal;
+    color: #fff;
+    
+}
+header #conteiner li {
+    display: inline;
+    margin-left: 12px;
+    text-align: center;
+    font-size: 24px;
+}
+header #conteiner li:hover {
+    font-size: 28px;
+}
+header #conteiner li a {
+    text-decoration: none;
+    color: #fff;
+}
+section #conteiner {
+    margin-top: 30px;
+}
+.history_area {
+    display: flex;
+    justify-content: space-between;
+}
+.left_side img {
+    width: 700px;
+}
+.right_side {
+    margin-left: 24px;
+}
+.right_side h1 {
+    color: #413A36;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.right_side p {
+    font-size: 18px;
+    color: #918781;;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+.contact input,
+textarea, 
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 1px solid #D5D5D5;
+    font-family: "Metal Mania", system-ui;
+}
+.contact textarea {
+    height: 180px;
+    resize: none;
+}
+.contact button {
+    font-family: "Metal Mania", system-ui;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: #413A36;
+    color: #fff;
+    cursor: pointer;
+}
+#contact-us h2 {
+    margin-bottom: 12px;
+}
+.contact button:hover {
+    background-color: #75645a;
+}
+.social-links {
+    margin-left: -45px;
+}
+.social-links  img {
+    height: 24px;
+}
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a {
+    text-decoration: none;
+    padding: 8px;
+}
+footer {
+    background-color: #413A36;
+    color: #fff;
+    padding: 10px;
+}
